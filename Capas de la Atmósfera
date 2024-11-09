@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capas de la Atmósfera</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Capas de la Atmósfera</h1>
+    <div class="atmosphere-layer" onclick="toggleLayer('troposphere-info')">
+        Troposfera
+        <div id="troposphere-info" class="info">Es la capa más importante debido a que es en la que vivi-mos. Es aquí donde se desarrollan todos los fenómenos me-teorológicos, como: temperatura, precipitaciones, tormentas eléctricas, nevadas, huracanes, etcétera.
+Contiene tres cuartas partes del aire atmosférico.
+Disminuye la temperatura hasta -50 °C conforme se llega a su límite.
+La parte superior es la tropopausa.</div>
+    </div>
+    <div class="atmosphere-layer" onclick="toggleLayer('stratosphere-info')">
+        Estratosfera
+        <div id="stratosphere-info" class="info">Sólo contiene una cuarta parte del aire atmosférico, por lo que es una capa en donde los fenómenos meteorológicos no existen. Esta circunstancia la hace una capa estable e ideal para la navegación aérea comercial.
+• La temperatura aumenta hasta cerca de 90 °C a los 25 km de altura, ya que los rayos ultravioletas transforman el oxígeno en ozono dando origen a la subcapa conocida como ozonos-fera, la cual absorbe hasta 99% de la radiación ultravioleta de alta frecuencia que pueden llegar a ocasionar cáncer de piel.
+La capa límite es la estratopausa.</div>
+    </div>
+    <div class="atmosphere-layer" onclick="toggleLayer('mesosphere-info')">
+        Mesosfera
+        <div id="mesosphere-info" class="info">Sólo contiene 0.1% de aire atmosférico, por lo que prácticamente desaparece el vapor de agua y el ozono. La temperatura cae hasta los -80 °C. Aquí se forman las nubes noc-tilucentes muy tenues, que sólo se pueden observar en las regiones polares por el atardecer.
+• Su parte superior es la mesopausa.</div>
+    </div>
+    <div class="atmosphere-layer" onclick="toggleLayer('thermosphere-info')">
+        Termosfera
+        <div id="thermosphere-info" class="info">Debido a la baja densidad de sus gases, se presenta en esta capa la ionización continua, es decir, los electrones se mueven con mayor libertad y las consecuencias de ello es una excelente conducción de electricidad, lo cual permite la propagación de ondas de radio y televisión.
+• La ionosfera se subdivide en varias capas conocidas con nombres de letras, las más bajas D y E, esencialmente son para ondas de radio de baja frecuencia y las más altas, F1 y F2, reflejan las ondas de radio de frecuencia mayor.
+También es conocida como termosfera porque hay gran variación en las temperaturas que van de -70 °C hasta 1500 °C
+debido a la dinámica de la ionización.
+Aquí es donde los meteoritos empiezan a quemarse y des-integrarse. Además se forman las auroras boreales y austra-les, que no es otra cosa que la caída de partículas del viento solar, cuyos colores las hacen tan atractivas.</div>
+    </div>
+    <div class="atmosphere-layer" onclick="toggleLayer('exosphere-info')">
+        Exosfera
+        <div id="exosphere-info" class="info">Se considera como el límite con el espacio exterior, de muy baja densidad, incluso no se llega a determinar el momento en que empieza en sí el espacio sideral. Tiene un gran contenido de polvo cósmico. Para algunos científicos contiene a la magnetosfera</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
